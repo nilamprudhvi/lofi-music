@@ -1,0 +1,117 @@
+
+body{
+background-image:url(playlistbg.png);
+background-repeat: no-repeat;
+background-size: cover;
+height:100vh;
+width:100%;
+}
+
+
+
+
+label{
+    
+    
+    
+    
+    font-size: large;
+font-family:'Arial Narrow';
+color:black;
+text-align: center;
+margin-left:520px;
+justify-content: center;
+background-image:url(playlistbg.png);
+width:100px;
+padding: 10px;
+
+    }
+    label3{
+        
+        text-align:center;
+        margin-left:585px;
+        color: black;
+        border-bottom: solid;
+        
+    }
+    
+
+
+label1{
+    color:black;
+    background-image:url(playlistbg.png);
+    width: 30px;
+    border: 2px;
+    padding: 5px;
+    margin-left:615px;
+    
+    border-radius: 5px;
+    border-color: black;
+    border-style:solid;
+}
+    h5{
+        text-align: center;
+        padding: 6px;
+        display: flex;
+        border-radius: 12px;
+        font-family: 'Franklin Gothic Medium';
+
+        justify-content: center;
+        margin: 50px 0px 50px 560px;
+
+    height: 25px;
+    width:200px;
+    border:30px;
+    color:black;
+    background-size: contain;
+    background-image:url(playlistbg.png);
+    
+}
+
+ img{
+margin-top:-12px;
+width:30px;
+border:2px;
+margin-left:60px;
+border-style:solid;
+border-color:black;
+border-radius:25px;
+
+
+
+ }
+   
+
+form{
+    background-repeat: no-repeat;
+    
+     background-image: url(playlistbg.png);
+ background-size:13cm;
+ background-position:center;
+ justify-content:left;
+margin-right:5px;
+ border:2px;
+border-style:solid;
+ padding: 25px;
+border-radius: 20px;
+height:190px;
+margin-left:560px;
+width: 160px;
+display:grid;
+border-color: black;
+}
+
+    button{
+        
+        color:black;
+        text-align: center;
+        display:flex;
+        margin-left:50px;
+        padding:2px;
+        background-color:silver;
+        border-radius:3px;
+        border-color: black;
+        font-family: 'Gill Sans';
+        border-radius: 3px;    
+        width: 65px;   
+    }

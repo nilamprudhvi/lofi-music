@@ -1,0 +1,93 @@
+body{
+    background-image:url(playlistbg.png);
+    background-repeat: no-repeat;
+    background-size: 1400px;  
+}
+
+    
+    /* Using flex with the column direction to
+    align items in a vertical direction */
+.myForm{
+    background-size:100%;
+    background-position:100%;
+    width: 270px;
+    margin: 70px 0px 0px 500px;
+    padding: 25px;
+    text-align: center;
+    position: relative;
+    justify-content: center;
+    
+    background-image:url(volume.jfif);
+    font-size:medium;
+    backface-visibility: calc(0.70);
+    border-radius: 15px;
+    display:flex;
+color: white;
+
+    }
+    .Test_Audio{
+        display: flex;
+
+    }
+    
+    .track-art {
+        
+    margin: 25px;
+    height: 150px;
+    width: 150px;
+    background-image: URL(
+        "download.jfif");
+    background-size: cover;
+    background-position: center;
+    border-radius: 15%;
+    }
+    
+    /* Changing the font sizes to suitable ones */
+    .now-playing {
+    font-size: 1rem;
+    }
+    
+    .track-name {
+    font-size: 3rem;
+    }
+    
+    .track-artist {
+    font-size: 1.5rem;
+    }
+    
+
+    
+a{
+color:black;
+font-family: 'Gill Sans';
+text-decoration: none;
+}
+a:hover{
+    background-color: aqua;
+}
+
+.navigation{
+    background-color:orange;
+    text-align: center;
+    justify-content: center;
+    gap:100px;
+    display: flex;
+width:1355px;
+height:4.5vh;   
+text-decoration: none;     
+}
+
+.menubar{
+    margin: top 5px;
+}
+.submenu1{
+
+ display:block;
+    position:absolute;
+    
+    
+    margin-top: 15px;
+    margin-left: -15px;
+    padding:50px;    
+}
+
